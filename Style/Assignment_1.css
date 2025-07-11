@@ -30,6 +30,8 @@
 
 body {
     background-color: #f5f8ff;
+
+
 }
 
 /* header */
@@ -114,14 +116,15 @@ body {
     background-color: #e5e7ff;
     padding: 30px 250px;
     border-radius: 20px;
-    
-    
+
+
 
 }
 
-#main{
+#main {
     text-align: center;
 }
+
 .user-header {
     font-size: 30px;
 
@@ -133,4 +136,97 @@ body {
     gap: 50px;
     text-align: center;
     justify-content: center;
+}
+
+
+/* active user */
+.users-feedback-container {
+    text-align: center;
+    margin: 200px 200px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.user-feedback-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.review-container {
+
+    display: flex;
+    gap: 30px;
+
+
+
+}
+
+
+.reviews {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 25px;
+    padding: 24px;
+    justify-items: left;
+
+}
+
+
+.reviews:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.review-stars {
+    background-repeat: repeat-x;
+
+
+
+}
+
+.review-title {
+    color: #3a3a3a;
+}
+
+.users-comment {
+    text-align: left;
+    color: #696969;
+}
+
+.user-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.name-date {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0px;
+    text-align: left;
+}
+
+.reviewer-name {
+    font-size: 15px;
+    color: #696969;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #696969;
+    margin: 0px;
 }
