@@ -24,8 +24,12 @@
     border-radius: 5px;
     color: white;
     border: none;
-    
-    
+
+
+}
+
+body {
+    background-color: #f5f8ff;
 }
 
 /* header */
@@ -53,13 +57,13 @@
 
 
 
-.nav-logo{
+.nav-logo {
     color: #4E47FF;
     font-size: 30px;
     font-weight: 800;
 }
 
-.heading-title{
+.heading-title {
     text-align: center;
     margin-top: 200px;
     font-size: 65px;
@@ -69,6 +73,64 @@
 
 .heading {
 
-   text-align: center;
+    text-align: center;
 
+}
+
+/* see in action  */
+
+.see-in-action-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 200px;
+    align-items: center;
+}
+
+
+
+.see-in-action-title {
+    font-size: 42px;
+}
+
+.see-in-action-descrip {
+    font-size: 24px;
+
+    color: rgb(103, 103, 103);
+    font-weight: 200;
+}
+
+.see-in-action-img {
+    border-radius: 20px;
+}
+
+
+
+/* Active users */
+
+.bolded-text-container {
+    display: inline-block;
+    margin: 200px 200px;
+    gap: 50px;
+    background-color: #e5e7ff;
+    padding: 30px 250px;
+    border-radius: 20px;
+    
+    
+
+}
+
+#main{
+    text-align: center;
+}
+.user-header {
+    font-size: 30px;
+
+}
+
+.bolded-text-group {
+
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
 }
